@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.bozsadam.tabasclass.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.bozsadam.tabasclass.MyBundle
 
 class MyApplicationService {
 
