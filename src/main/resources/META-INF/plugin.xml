@@ -10,10 +10,9 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.bozsadam.tabasclass.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.bozsadam.tabasclass.services.MyProjectService"/>
+        <editorTabTitleProvider implementation="com.github.bozsadam.tabasclass.CustomEditorTabTitleProvider" />
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.bozsadam.tabasclass.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+    <projectListeners>
+    </projectListeners>
 </idea-plugin>
