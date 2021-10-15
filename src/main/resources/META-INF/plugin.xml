@@ -3,6 +3,7 @@
     <id>com.github.bozsadam.tabasclass</id>
     <name>Tab-as-Class</name>
     <vendor>bozsadam</vendor>
+    <description>This plugin allows you to read class names in the tabs of your php files, which helps when you have the namespace set, and beforehand you only saw class.php's in the tabs.</description>
 
     <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij">
