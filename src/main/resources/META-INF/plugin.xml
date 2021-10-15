@@ -1,9 +1,10 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.bozsadam.tabasclass</id>
     <name>Tab-as-Class</name>
     <vendor>bozsadam</vendor>
-    <depends>com.intellij.modules.platform</depends>
 
+    <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij">
         <editorTabTitleProvider implementation="com.github.bozsadam.tabasclass.CustomEditorTabTitleProvider" />
     </extensions>
