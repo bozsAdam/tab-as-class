@@ -16,10 +16,6 @@ plugins {
     id("org.jetbrains.qodana") version "0.1.12"
 }
 
-tasks.buildSearchableOptions {
-    enabled = false
-}
-
 group = properties("pluginGroup")
 version = properties("pluginVersion")
 

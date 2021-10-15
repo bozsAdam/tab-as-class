@@ -2,15 +2,9 @@
     <id>com.github.bozsadam.tabasclass</id>
     <name>Tab-as-Class</name>
     <vendor>bozsadam</vendor>
-
-    <!-- Product and plugin compatibility requirements -->
-    <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <editorTabTitleProvider implementation="com.github.bozsadam.tabasclass.CustomEditorTabTitleProvider" />
     </extensions>
-
-    <projectListeners>
-    </projectListeners>
 </idea-plugin>
